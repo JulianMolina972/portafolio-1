@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: "Roboto",sans-serif;
+}
+a {
+  margin: 15px ;
+}
+
+p {
+  margin: 5px;
+  padding: 10px;
+  width:300px;
+  border: 1px solid blue;
+}
