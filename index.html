@@ -11,13 +11,16 @@
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@300;500&family=Roboto:wght@700&display=swap" rel="stylesheet">
+		<script src="https://kit.fontawesome.com/ee52ebff83.js" crossorigin="anonymous"></script>
 	</head>
 
 	<body>
-		<header>
-			<nav>
-				<ul>
-					<li>
+		<header class="header">
+			<img class="header-logo" src="./images/LogoJM2.PNG" alt="Logo de Julian Molina ">
+			<a href="./">Home</a>
+			<nav class="header--nav">
+				<ul class="header--list">
+					<li >
 						<a href="./contact.html">Contact</a>
 					</li>
 					<li>
@@ -33,17 +36,51 @@
 			</nav>
 		</header>
 
-		<main>
-			<img src="https://picsum.photos/500" alt="mi foto de perfil">
-			<h2>Julian Molina</h2>
-			<p>Esta va a ser mi descripción</p>
+		<main class="main">
+			<section class="main--container">
+				<div>
+					<img class="main--img" src="https://picsum.photos/300" alt="mi foto de perfil">
+				</div>
+				<div class="main--info">
+					<h2 class="info--name">Julian Molina Ingeniero electrónico, Desarrollador de software y hardware</h2>
+					<p class="info--description">Me gusta crear e innovar tecnologia, y principalmente combinando Hardware y Software así mismo me especializo en IoT</p>
+					<div class="main--links">
+						<a  class="main--link main--link__contact" href="./contact.html">Contact</a>
+						<a class="main--link main--link__blog" href="./blog.html">Blog</a>
+					</div>
+					<div class="main--social-media">
+						<h2>Sígueme en</h2>
+						<ul>
+							<li>
+								<a href=""><i class="fa-brands fa-github"></i></i></a>
+								<a href=""><i class="fa-brands fa-twitter"></i></a>
+								<a href=""><i class="fa-brands fa-linkedin"></i></a>
+								<a href=""><i class="fa-brands fa-instagram"></i></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</section>
 
 			<ul>
-				<li>html</li>
-				<li>css</li>
-				<li>js</li>
-				<li>git y github</li>
+				<li>
+					<img src="" alt="HTML">
+					<p>HTML</p>
+				</li>
+				<li>
+					<img src="" alt="CSS">
+					<p>CSS</p>
+				</li>
+				<li>
+					<img src="" alt="JavaScript">
+					<p>JavaScript</p>
+				</li>
+				<li>
+					<img src="" alt="Git y Github">
+					<p>Git y Github</p>
+				</li>
 			</ul>
+			
 		</main>
 
 
